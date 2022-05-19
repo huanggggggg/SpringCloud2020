@@ -12,10 +12,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 @Component
 @FeignClient(value = "CLOUD-PAYMENT-SERVICE")//feign调用的是这个服务中对应的路径的方法
 public interface FeignInterface {
-    @PostMapping("/payment/create")
+    @PostMapping(value = "/payment/create")
     public CommonResult create(@RequestBody Payment payment);
 
-    @GetMapping("/payment/get/{id}")
+    @GetMapping(value = "/payment/get/{id}")
     public CommonResult getPaymentById(@PathVariable(value = "id") Long id);
 
 }

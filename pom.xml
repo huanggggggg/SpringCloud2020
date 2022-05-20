@@ -29,6 +29,11 @@
         <module>cloud-config-3366</module>
         <module>cloud-stream-consumer-8802</module>
         <module>cloud-stream-provider-8801</module>
+        <module>cloud-stream-consumer-8803</module>
+        <module>springalibaba-nacos-provider-9001</module>
+        <module>springalibaba-nacos-consumer-80</module>
+        <module>springalibaba-nacos-provider-9002</module>
+        <module>springcloudalibaba-config-3377</module>
         <!--<module>cloud-eureka-server7001</module>
         <module>cloud-eureka-server7002</module>-->
     </modules>

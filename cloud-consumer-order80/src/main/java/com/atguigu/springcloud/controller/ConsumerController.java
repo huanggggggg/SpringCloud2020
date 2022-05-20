@@ -30,4 +30,6 @@ public class ConsumerController {
         String url = PAYMENT_URL + "/payment/get/"+id;
         return restTemplate.getForObject(url,CommonResult.class);
     }
+
+
 }

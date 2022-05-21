@@ -34,6 +34,7 @@
         <module>springalibaba-nacos-consumer-80</module>
         <module>springalibaba-nacos-provider-9002</module>
         <module>springcloudalibaba-config-3377</module>
+        <module>springcloudalibaba-sentinel-8401</module>
         <!--<module>cloud-eureka-server7001</module>
         <module>cloud-eureka-server7002</module>-->
     </modules>

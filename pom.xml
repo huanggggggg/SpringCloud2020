@@ -35,6 +35,11 @@
         <module>springalibaba-nacos-provider-9002</module>
         <module>springcloudalibaba-config-3377</module>
         <module>springcloudalibaba-sentinel-8401</module>
+        <module>springalibaba-sentinel-provider-9901</module>
+        <module>springalibaba-sentinel-consumer-80</module>
+        <module>springcloudalibab-sentinel-provider-feign-80</module>
+        <module>seate-order-service2001</module>
+        <module>seate-storage-service2002</module>
         <!--<module>cloud-eureka-server7001</module>
         <module>cloud-eureka-server7002</module>-->
     </modules>

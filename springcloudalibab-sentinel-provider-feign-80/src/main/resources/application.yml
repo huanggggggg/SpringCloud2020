@@ -1,0 +1,23 @@
+server:
+  port: 80
+
+spring:
+  application:
+    name: cloudalibaba-sentinel-consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848  #nacos
+    sentinel:
+      transport:
+        dashboard: localhost:8080    #sentinel
+        port: 8719
+
+#消费者将去访问的微服务名称
+server-url:
+  nacos-user-service: http://cloudalibaba-sentinel-provider
+
+#激活Sentinel对Feign的支持
+feign:
+  sentinel:
+    enabled: true
